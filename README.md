@@ -1,19 +1,30 @@
 # 📊 Sales Forecasting using Machine Learning
 
-This project predicts sales using machine learning techniques.
+This project predicts sales using machine learning techniques with time-series feature engineering.
+
+---
 
 ## 🚀 Features
-- Time-series feature engineering
+- Time-series forecasting approach
+- Lag features & rolling averages
 - XGBoost model
-- Lag & rolling features
-- Visualization of predictions
+- Data visualization
 
-## 📊 Model
-- XGBoost Regressor
+---
 
-## 📈 Evaluation
-- RMSE
+## 📊 Models Used
+- Linear Regression
+- Random Forest
+- Gradient Boosting
+- XGBoost (Final Model)
+
+---
+
+## 📈 Evaluation Metrics
+- RMSE (Root Mean Squared Error)
 - R² Score
+
+---
 
 ## 🛠 Tech Stack
 - Python
@@ -23,5 +34,24 @@ This project predicts sales using machine learning techniques.
 - XGBoost
 - Matplotlib
 
-## 💡 Outcome
-Improved prediction accuracy using advanced feature engineering and time-based splitting.
+---
+
+## 💡 Key Insights
+- Sales are influenced by past trends (lag features)
+- Seasonality plays an important role
+- XGBoost provided the best performance
+
+---
+
+## 📂 Project Structure
+sales-forecasting-ml/
+│
+├── sales_forecasting.ipynb
+├── sales_forecasting.py
+├── train.csv
+├── README.md
+
+---
+
+## ✨ Author
+Pragati Sharma
