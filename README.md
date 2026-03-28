@@ -50,6 +50,7 @@ sales-forecasting-ml/
 ├── sales_forecasting.py
 ├── train.csv
 ├── README.md
+├── Screenshort.png
 
 ---
 
